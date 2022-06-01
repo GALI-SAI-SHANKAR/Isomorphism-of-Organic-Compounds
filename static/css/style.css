@@ -1,0 +1,44 @@
+body {
+  background-image: url("../images/background.jpg");
+  background-repeat: no-repeat, repeat;
+  background-size: cover;
+}
+h1 {
+  color: '#000547';
+}
+.title{
+    color: '#000547';
+    position: absolute;
+    left: 450px;
+    top: 75px;
+    font-size: 250%;
+}
+
+.container{
+    margin : 200px 5px 100px 450px;
+    height: 42vh;
+    width: 29%;
+    border: 5px solid black;
+    padding: 50px;
+    border-radius: 10%;
+    display:flex;
+    justify-content: center;
+    align-content: center;
+}
+
+input   {
+    margin: 20px 10px 10px 0;
+    padding: 10px;
+}
+.label  {
+    font-size:xx-large;
+    color: rgb(0, 0, 0);
+}
+
+button  {
+    margin: 20px 10px 10px 50px;
+    width: 200px;
+    padding: 10px;
+    background-color: rgb(6, 99, 202);
+    font-size: 16px;
+}
